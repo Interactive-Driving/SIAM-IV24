@@ -2432,6 +2432,7 @@ input[type="radio"]:focus + label:before {
     display: block;
     margin: 0 0 2em 0;
     width: 100%;
+    object-fit: contain;
 }
 
 .image.fit img {
@@ -2698,7 +2699,7 @@ header.major p {
 }
 
 header.major.special {
-    text-align: center;
+    text-align: left;
 }
 
 header.major.special h2:after {
